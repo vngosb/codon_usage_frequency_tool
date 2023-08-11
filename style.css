@@ -1,0 +1,40 @@
+/* Style for the search box */
+.search-box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.search-box form {
+    display: inline-block;
+}
+
+.search-box input[type="text"] {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.search-box input[type="submit"] {
+    padding: 6px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*Style for the data table */
+.data-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width as needed */
+}
+
+.data-table th, .data-table td {
+    border: 1px solid black;
+    padding: 6px; /* Adjust the padding as needed */
+    text-align: center;
+    font-size: 14px; /* Adjust the font size as needed */
+}

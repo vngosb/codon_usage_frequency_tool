@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />    
+    <title>Final Project</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Codon Frequency Table</h1>
+
+    <div class="search-box">
+        <p>Please enter your DNA sequence here:</p>
+        <form id="dna-form" method="post" action="./final_project.cgi">
+            <input type="text" id="dna" name="dna" placeholder="Input DNA Sequence">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+    <p id="protein-sequence">Amino Acid Sequence:</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Triplet</th>
+                <th>Protein</th>
+                <th>Number of Occurrences</th>
+                <th>Frequency of Occurrence</th>
+            </tr>
+        </thead>
+        <tbody id="data-table-body">
+            <!-- Table rows will be dynamically added here -->
+        </tbody>
+    </table>
+</body>
+</html>
+
